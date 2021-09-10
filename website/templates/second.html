@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+{% block title %}Articles{% endblock %}
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">	
+<!-- bootstrap css -->
+<link rel="stylesheet" href="{{ url_for('static', filename='csss/bootstrap.min.css') }}" />
+<!-- style css -->
+<link rel="stylesheet" href="{{ url_for('static', filename='csss/styles.css') }}" />
+<!-- Responsive-->
+<link rel="stylesheet" href="{{ url_for('static', filename='csss/responsive.css') }}" />
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='csss/jquery.mCustomScrollbar.min.css') }}" />
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="csss/owl.carousel.min.css">
+<link rel="stylesheet" href="csss/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+
+</head>
+<!-- body -->
+<body>
+	<div class="header_main">
+		<div class="container">
+			<div class="logo"><a href="index.html"></a></div>
+		</div>
+	</div>
+    <!-- end header end -->        
+    <!--banner start -->
+    <div class="container">
+        <div class="creative_taitaldup">
+            <div>
+            <h1 class="creative_text">Select the Article Number</h1>
+            </div>
+        </div>
+    </div>
+    <p><br></p>
+    <div class = "dropdown">
+        <select name="articleNumbers" id="articleNumbers">
+            <option value=1>Article 1</option>
+<option value=2>Article 2</option>
+<option value=3>Article 3</option>
+<option value=4>Article 4</option>
+<option value=5>Article 5</option>
+<option value=6>Article 6</option>
+<option value=7>Article 7</option>
+<option value=8>Article 8</option>
+<option value=9>Article 9</option>
+<option value=10>Article 10</option>
+<option value=11>Article 11</option>
+<option value=12>Article 12</option>
+<option value=13>Article 13</option>
+<option value=14>Article 14</option>
+<option value=15>Article 15</option>
+<option value=16>Article 16</option>
+<option value=17>Article 17</option>
+<option value=18>Article 18</option>
+<option value=19>Article 19</option>
+<option value=20>Article 20</option>
+<option value=21>Article 21</option>
+<option value=22>Article 22</option>
+<option value=23>Article 23</option>
+<option value=24>Article 24</option>
+<option value=25>Article 25</option>
+<option value=26>Article 26</option>
+<option value=27>Article 27</option>
+<option value=28>Article 28</option>
+<option value=29>Article 29</option>
+<option value=30>Article 30</option>
+<option value=31>Article 31</option>
+<option value=32>Article 32</option>
+<option value=33>Article 33</option>
+<option value=34>Article 34</option>
+<option value=35>Article 35</option>
+<option value=36>Article 36</option>
+<option value=37>Article 37</option>
+<option value=38>Article 38</option>
+<option value=39>Article 39</option>
+<option value=40>Article 40</option>
+<option value=41>Article 41</option>
+<option value=42>Article 42</option>
+<option value=43>Article 43</option>
+<option value=44>Article 44</option>
+<option value=45>Article 45</option>
+<option value=46>Article 46</option>
+<option value=47>Article 47</option>
+<option value=48>Article 48</option>
+<option value=49>Article 49</option>
+<option value=50>Article 50</option>
+<option value=51>Article 51</option>
+<option value=52>Article 52</option>
+<option value=53>Article 53</option>
+<option value=54>Article 54</option>
+<option value=55>Article 55</option>
+<option value=56>Article 56</option>
+<option value=57>Article 57</option>
+<option value=58>Article 58</option>
+<option value=59>Article 59</option>
+<option value=60>Article 60</option>
+<option value=61>Article 61</option>
+<option value=62>Article 62</option>
+<option value=63>Article 63</option>
+<option value=64>Article 64</option>
+<option value=65>Article 65</option>
+<option value=66>Article 66</option>
+<option value=67>Article 67</option>
+<option value=68>Article 68</option>
+<option value=69>Article 69</option>
+<option value=70>Article 70</option>
+<option value=71>Article 71</option>
+<option value=72>Article 72</option>
+<option value=73>Article 73</option>
+<option value=74>Article 74</option>
+<option value=75>Article 75</option>
+<option value=76>Article 76</option>
+<option value=77>Article 77</option>
+<option value=78>Article 78</option>
+<option value=79>Article 79</option>
+<option value=80>Article 80</option>
+<option value=81>Article 81</option>
+<option value=82>Article 82</option>
+<option value=83>Article 83</option>
+<option value=84>Article 84</option>
+<option value=85>Article 85</option>
+<option value=86>Article 86</option>
+<option value=87>Article 87</option>
+<option value=88>Article 88</option>
+<option value=89>Article 89</option>
+<option value=90>Article 90</option>
+<option value=91>Article 91</option>
+<option value=92>Article 92</option>
+<option value=93>Article 93</option>
+<option value=94>Article 94</option>
+<option value=95>Article 95</option>
+<option value=96>Article 96</option>
+<option value=97>Article 97</option>
+<option value=98>Article 98</option>
+<option value=99>Article 99</option>
+<option value=100>Article 100</option>
+<option value=101>Article 101</option>
+<option value=102>Article 102</option>
+<option value=103>Article 103</option>
+<option value=104>Article 104</option>
+<option value=105>Article 105</option>
+<option value=106>Article 106</option>
+<option value=107>Article 107</option>
+<option value=108>Article 108</option>
+<option value=109>Article 109</option>
+<option value=110>Article 110</option>
+<option value=111>Article 111</option>
+<option value=112>Article 112</option>
+<option value=113>Article 113</option>
+<option value=114>Article 114</option>
+<option value=115>Article 115</option>
+<option value=116>Article 116</option>
+<option value=117>Article 117</option>
+<option value=118>Article 118</option>
+<option value=119>Article 119</option>
+<option value=120>Article 120</option>
+<option value=121>Article 121</option>
+<option value=122>Article 122</option>
+<option value=123>Article 123</option>
+<option value=124>Article 124</option>
+<option value=125>Article 125</option>
+<option value=126>Article 126</option>
+<option value=127>Article 127</option>
+<option value=128>Article 128</option>
+<option value=129>Article 129</option>
+<option value=130>Article 130</option>
+<option value=131>Article 131</option>
+<option value=132>Article 132</option>
+<option value=133>Article 133</option>
+<option value=134>Article 134</option>
+<option value=135>Article 135</option>
+<option value=136>Article 136</option>
+<option value=137>Article 137</option>
+<option value=138>Article 138</option>
+<option value=139>Article 139</option>
+<option value=140>Article 140</option>
+<option value=141>Article 141</option>
+<option value=142>Article 142</option>
+<option value=143>Article 143</option>
+<option value=144>Article 144</option>
+<option value=145>Article 145</option>
+<option value=146>Article 146</option>
+<option value=147>Article 147</option>
+<option value=148>Article 148</option>
+<option value=149>Article 149</option>
+<option value=150>Article 150</option>
+<option value=151>Article 151</option>
+<option value=152>Article 152</option>
+<option value=153>Article 153</option>
+<option value=154>Article 154</option>
+<option value=155>Article 155</option>
+<option value=156>Article 156</option>
+<option value=157>Article 157</option>
+<option value=158>Article 158</option>
+<option value=159>Article 159</option>
+<option value=160>Article 160</option>
+<option value=161>Article 161</option>
+<option value=162>Article 162</option>
+<option value=163>Article 163</option>
+<option value=164>Article 164</option>
+<option value=165>Article 165</option>
+<option value=166>Article 166</option>
+<option value=167>Article 167</option>
+<option value=168>Article 168</option>
+<option value=169>Article 169</option>
+<option value=170>Article 170</option>
+<option value=171>Article 171</option>
+<option value=172>Article 172</option>
+<option value=173>Article 173</option>
+<option value=174>Article 174</option>
+<option value=175>Article 175</option>
+<option value=176>Article 176</option>
+<option value=177>Article 177</option>
+<option value=178>Article 178</option>
+<option value=179>Article 179</option>
+<option value=180>Article 180</option>
+<option value=181>Article 181</option>
+<option value=182>Article 182</option>
+<option value=183>Article 183</option>
+<option value=184>Article 184</option>
+<option value=185>Article 185</option>
+<option value=186>Article 186</option>
+<option value=187>Article 187</option>
+<option value=188>Article 188</option>
+<option value=189>Article 189</option>
+<option value=190>Article 190</option>
+<option value=191>Article 191</option>
+<option value=192>Article 192</option>
+<option value=193>Article 193</option>
+<option value=194>Article 194</option>
+<option value=195>Article 195</option>
+<option value=196>Article 196</option>
+<option value=197>Article 197</option>
+<option value=198>Article 198</option>
+<option value=199>Article 199</option>
+<option value=200>Article 200</option>
+<option value=201>Article 201</option>
+<option value=202>Article 202</option>
+<option value=203>Article 203</option>
+<option value=204>Article 204</option>
+<option value=205>Article 205</option>
+<option value=206>Article 206</option>
+<option value=207>Article 207</option>
+<option value=208>Article 208</option>
+<option value=209>Article 209</option>
+<option value=210>Article 210</option>
+<option value=211>Article 211</option>
+<option value=212>Article 212</option>
+<option value=213>Article 213</option>
+<option value=214>Article 214</option>
+<option value=215>Article 215</option>
+<option value=216>Article 216</option>
+<option value=217>Article 217</option>
+<option value=218>Article 218</option>
+<option value=219>Article 219</option>
+<option value=220>Article 220</option>
+<option value=221>Article 221</option>
+<option value=222>Article 222</option>
+<option value=223>Article 223</option>
+<option value=224>Article 224</option>
+<option value=225>Article 225</option>
+<option value=226>Article 226</option>
+<option value=227>Article 227</option>
+<option value=228>Article 228</option>
+<option value=229>Article 229</option>
+<option value=230>Article 230</option>
+<option value=231>Article 231</option>
+<option value=232>Article 232</option>
+<option value=233>Article 233</option>
+<option value=234>Article 234</option>
+<option value=235>Article 235</option>
+<option value=236>Article 236</option>
+<option value=237>Article 237</option>
+<option value=238>Article 238</option>
+<option value=239>Article 239</option>
+<option value=240>Article 240</option>
+<option value=241>Article 241</option>
+<option value=242>Article 242</option>
+<option value=243>Article 243</option>
+<option value=244>Article 244</option>
+<option value=245>Article 245</option>
+<option value=246>Article 246</option>
+<option value=247>Article 247</option>
+<option value=248>Article 248</option>
+<option value=249>Article 249</option>
+<option value=250>Article 250</option>
+<option value=251>Article 251</option>
+<option value=252>Article 252</option>
+<option value=253>Article 253</option>
+<option value=254>Article 254</option>
+<option value=255>Article 255</option>
+<option value=256>Article 256</option>
+<option value=257>Article 257</option>
+<option value=258>Article 258</option>
+<option value=259>Article 259</option>
+<option value=260>Article 260</option>
+<option value=261>Article 261</option>
+<option value=262>Article 262</option>
+<option value=263>Article 263</option>
+<option value=264>Article 264</option>
+<option value=265>Article 265</option>
+<option value=266>Article 266</option>
+<option value=267>Article 267</option>
+<option value=268>Article 268</option>
+<option value=269>Article 269</option>
+<option value=270>Article 270</option>
+<option value=271>Article 271</option>
+<option value=272>Article 272</option>
+<option value=273>Article 273</option>
+<option value=274>Article 274</option>
+<option value=275>Article 275</option>
+<option value=276>Article 276</option>
+<option value=277>Article 277</option>
+<option value=278>Article 278</option>
+<option value=279>Article 279</option>
+<option value=280>Article 280</option>
+<option value=281>Article 281</option>
+<option value=282>Article 282</option>
+<option value=283>Article 283</option>
+<option value=284>Article 284</option>
+<option value=285>Article 285</option>
+<option value=286>Article 286</option>
+<option value=287>Article 287</option>
+<option value=288>Article 288</option>
+<option value=289>Article 289</option>
+<option value=290>Article 290</option>
+<option value=291>Article 291</option>
+<option value=292>Article 292</option>
+<option value=293>Article 293</option>
+<option value=294>Article 294</option>
+<option value=295>Article 295</option>
+<option value=296>Article 296</option>
+<option value=297>Article 297</option>
+<option value=298>Article 298</option>
+<option value=299>Article 299</option>
+<option value=300>Article 300</option>
+<option value=301>Article 301</option>
+<option value=302>Article 302</option>
+<option value=303>Article 303</option>
+<option value=304>Article 304</option>
+<option value=305>Article 305</option>
+<option value=306>Article 306</option>
+<option value=307>Article 307</option>
+<option value=308>Article 308</option>
+<option value=309>Article 309</option>
+<option value=310>Article 310</option>
+<option value=311>Article 311</option>
+<option value=312>Article 312</option>
+<option value=313>Article 313</option>
+<option value=314>Article 314</option>
+<option value=315>Article 315</option>
+<option value=316>Article 316</option>
+<option value=317>Article 317</option>
+<option value=318>Article 318</option>
+<option value=319>Article 319</option>
+<option value=320>Article 320</option>
+<option value=321>Article 321</option>
+<option value=322>Article 322</option>
+<option value=323>Article 323</option>
+<option value=324>Article 324</option>
+<option value=325>Article 325</option>
+<option value=326>Article 326</option>
+<option value=327>Article 327</option>
+<option value=328>Article 328</option>
+<option value=329>Article 329</option>
+<option value=330>Article 330</option>
+<option value=331>Article 331</option>
+<option value=332>Article 332</option>
+<option value=333>Article 333</option>
+<option value=334>Article 334</option>
+<option value=335>Article 335</option>
+<option value=336>Article 336</option>
+<option value=337>Article 337</option>
+<option value=338>Article 338</option>
+<option value=339>Article 339</option>
+<option value=340>Article 340</option>
+<option value=341>Article 341</option>
+<option value=342>Article 342</option>
+<option value=343>Article 343</option>
+<option value=344>Article 344</option>
+<option value=345>Article 345</option>
+<option value=346>Article 346</option>
+<option value=347>Article 347</option>
+<option value=348>Article 348</option>
+<option value=349>Article 349</option>
+<option value=350>Article 350</option>
+<option value=351>Article 351</option>
+<option value=352>Article 352</option>
+<option value=353>Article 353</option>
+<option value=354>Article 354</option>
+<option value=355>Article 355</option>
+<option value=356>Article 356</option>
+<option value=357>Article 357</option>
+<option value=358>Article 358</option>
+<option value=359>Article 359</option>
+<option value=360>Article 360</option>
+<option value=361>Article 361</option>
+<option value=362>Article 362</option>
+<option value=363>Article 363</option>
+<option value=364>Article 364</option>
+<option value=365>Article 365</option>
+<option value=366>Article 366</option>
+<option value=367>Article 367</option>
+<option value=368>Article 368</option>
+<option value=369>Article 369</option>
+<option value=370>Article 370</option>
+<option value=371>Article 371</option>
+<option value=372>Article 372</option>
+<option value=373>Article 373</option>
+<option value=374>Article 374</option>
+<option value=375>Article 375</option>
+<option value=376>Article 376</option>
+<option value=377>Article 377</option>
+<option value=378>Article 378</option>
+<option value=379>Article 379</option>
+<option value=380>Article 380</option>
+<option value=381>Article 381</option>
+<option value=382>Article 382</option>
+<option value=383>Article 383</option>
+<option value=384>Article 384</option>
+<option value=385>Article 385</option>
+<option value=386>Article 386</option>
+<option value=387>Article 387</option>
+<option value=388>Article 388</option>
+<option value=389>Article 389</option>
+<option value=390>Article 390</option>
+<option value=391>Article 391</option>
+<option value=392>Article 392</option>
+<option value=393>Article 393</option>
+<option value=394>Article 394</option>
+<option value=395>Article 395</option>
+        </select>
+    </div>
+    </div>
+            <p><br></p>
+            <div class="btn_main">
+                <button id = "getArticleDescription" class="btn btn-success btn-click">Go!</button>
+            </div>
+    </div>
+    <div class="services_main">
+    	<div class="container">
+            <div class="creative_taital">
+    			<h1 class="creative_text">MyAttorney Know your Article </h1>
+                <p id = "articleDescription" style="color: #050000; text-align: center;">hey there dellailah</p>
+    		</div>
+        </div>
+    </div>
+    <!--banner end -->
+    <!--services start -->
+    <div class="services_main">
+    	<div class="container">
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                   <p class="copyright_text">© 2021 All Rights Reserved. <a href="https://html.design">MyAttorney</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Javascript files-->
+ <script src="js/jquery.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+ <script type="text/javascript">
+    $(document).ready(function () {
+        
+
+      console.log("hello");
+      $("#getArticleDescription").click(function(){
+          console.log("clicked");
+          var index = document.getElementById("articleNumbers").selectedIndex;
+          var articleNumber = document.getElementsByTagName("option")[index].value;
+          console.log("index is " + index)
+          $.ajax({
+            type : 'POST',
+            url : "/getArticle",
+            contentType: 'application/json;charset=UTF-8',
+            data : {'data':articleNumber}
+         }).done(function name(response) {
+            $("#articleDescription").html(response);
+            console.log("Got description from ddb: " + response);
+         });
+      });
+  });
+    </script>
+     
+</body>
+</html>
